@@ -34,7 +34,7 @@ curl http://localhost:8080/NUMBER # get a specific rule
 You can customize the server:
 
 ```
-Usage rules-of-acquisition:
+Usage of rules-of-acquisition:
   -address string
         address to listen on (if in serve mode) (default ":8080")
   -cert string
@@ -43,6 +43,8 @@ Usage rules-of-acquisition:
         number of the specific rule you'd like to retrieve (default -1)
   -key string
         key file to use (if TLS enabled) (default "key.pem")
+  -route string
+        route, including prefix, that server will listen on (such as when behind a reverse proxy, for example '/ferengi') (default "/")
   -serve
         set to true to run a REST API server
   -tls

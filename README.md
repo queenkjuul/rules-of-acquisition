@@ -2,6 +2,9 @@
 
 A digital compendium of all known Ferengi Rules of Acquisition. 
 
+[![release](https://github.com/queenkjuul/rules-of-acquisition/actions/workflows/release.yml/badge.svg)](https://github.com/queenkjuul/rules-of-acquisition/actions/workflows/release.yml)
+[![build](https://github.com/queenkjuul/rules-of-acquisition/actions/workflows/build.yml/badge.svg)](https://github.com/queenkjuul/rules-of-acquisition/actions/workflows/build.yml)
+
 ***[WARNING]: This project is not sactioned by the Ferengi Commerce Authority, and does not operate with any form of license. Use at your own risk!***
 
 _(but remember #62: "*the riskier the road, the greater the profit*")_

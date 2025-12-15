@@ -6,6 +6,8 @@ A digital compendium of all known Ferengi Rules of Acquisition.
 
 _(but remember #62: "*the riskier the road, the greater the profit*")_
 
+[see it in action](https://api.queenkjuul.xyz/ferengi)
+
 ## Usage
 
 ### Command Line
@@ -13,8 +15,8 @@ _(but remember #62: "*the riskier the road, the greater the profit*")_
 The Rules of Acquisition database ([ferengi.json](./ferengi.json)) is embedded into the binary at build time. Therefore, you only need to download a single binary from the [releases](https://github.com/queenkjuul/rules-of-acquisition/releases) page, and then run it from your shell:
 
 ```sh
-./rulesofa # get a random rule
-./rulesofa -id NUMBER # get a specific rule
+./rules-of-acquisition # get a random rule
+./rules-of-acquisition -id NUMBER # get a specific rule
 ```
 
 ### Web Server (REST API)
@@ -22,7 +24,7 @@ The Rules of Acquisition database ([ferengi.json](./ferengi.json)) is embedded i
 You can also run the binary as a web server: a single REST GET endpoint is exposed, which provides a random rule or, optionally, a specific rule by ID.
 
 ```sh
-./rulesofa -serve # default server at http://localhost:8080
+./rules-of-acquisition -serve # default server at http://localhost:8080
 # in your browser, go to http://localhost:8080
 # or in another shell, run
 curl http://localhost:8080 # get a random rule
